@@ -50,22 +50,11 @@ OPENAI_API_KEY=your_openai_api_key
 CREWAI_API_KEY=your_crewai_api_key
 
 uvicorn app:app --reload
+```
+
+
 
 ## 📖 API Documentation
-
-### 1. Health Check
-
-- **Endpoint:** `GET /`
-- **Description:** Returns status of the API.
-
-**Response Example:**
-```json
-{
-  "status": "ok"
-}
-
-
-📖 API Documentation
 1. Health Check
 
 Endpoint: GET /
